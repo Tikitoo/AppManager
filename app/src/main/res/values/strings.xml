@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppManager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_manager">AppManager</string>
+    <string name="app_manager_pkg_name">com.tikitoo.appmanager</string>
+    <string name="search_app">Search App</string>
+    <string name="search">Search</string>
+</resources>

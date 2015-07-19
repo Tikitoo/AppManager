@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingLeft="@dimen/padding_left_right"
+    android:paddingRight="@dimen/padding_left_right"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="@dimen/app_icon_margin_right"
+        android:padding="15dp"
+        android:src="@android:drawable/ic_menu_upload"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/app_icon"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:textColor="#aaffffff"
+            android:text="@string/app_manager"
+            />
+
+        <TextView
+            android:id="@+id/app_pkg_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="18dp"
+            android:textColor="#88ffffff"
+            android:text="@string/app_manager_pkg_name"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
